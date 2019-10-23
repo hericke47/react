@@ -1,0 +1,50 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "Um starter criado para o Workshop de introdução a React no campus IFSC Tubarão",
+  "version": "0.1.0",
+  "author": "Thiago Nunes <thiago_nunes_91@hotmail.com>",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "gatsby": "^2.15.29",
+    "gatsby-image": "^2.2.24",
+    "gatsby-plugin-manifest": "^2.2.20",
+    "gatsby-plugin-offline": "^3.0.11",
+    "gatsby-plugin-react-helmet": "^3.1.10",
+    "gatsby-plugin-sharp": "^2.2.28",
+    "gatsby-plugin-styled-components": "^3.1.9",
+    "gatsby-source-filesystem": "^2.1.29",
+    "gatsby-transformer-sharp": "^2.2.20",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.7.0",
+    "styled-components": "^4.4.0",
+    "typeface-montserrat": "^0.0.75"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "deploy:github": "npm run build && node ./scripts/deploy-github",
+    "build": "gatsby build",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
